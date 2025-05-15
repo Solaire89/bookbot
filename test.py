@@ -1,3 +1,4 @@
+"""
 def count_sentences(text):
     sentence_endings = ['.', '!', '?']
     sentence_count = 0
@@ -9,3 +10,11 @@ def count_sentences(text):
 
 test = "Hello, World! How do you do today? I would like to test this."
 print(count_sentences(test))
+"""
+
+fruits = ('apple', 'banana', 'cherry')
+print(fruits)
+
+fruits[1] = 'orange'
+
+print(fruits)
